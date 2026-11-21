@@ -1,5 +1,8 @@
 # Experiment 07 -- Hough Transform
 
+## Name : Santhose Arockiaraj J
+## RegNo : 212224230248
+
 ## Aim
 
 To detect straight lines in an input image using the Hough Transform
@@ -83,17 +86,26 @@ plt.show()
 
 ## Output
 
-1.  **Input Image:** The original image loaded from `my.jpeg`.
-2.  **Grayscale Image:** The input image converted into grayscale.
-3.  **Canny Edge Detector:** The edges detected from the grayscale
+  **Input Image:** The original image loaded from `my.jpeg`.
+
+<img width="296" height="410" alt="download" src="https://github.com/user-attachments/assets/619d18ae-f9f3-461d-9b05-a23c336e70e9" />
+
+ **Grayscale Image:** The input image converted into grayscale.
+
+<img width="296" height="410" alt="download" src="https://github.com/user-attachments/assets/640c7834-9827-4fc7-85c5-1b6c2dd96f19" />
+
+
+ **Canny Edge Detector:** The edges detected from the grayscale
     image.
-4.  **Result of Hough Transform:** The final image with the detected
+
+<img width="296" height="410" alt="download" src="https://github.com/user-attachments/assets/11290f47-c510-4f74-8a02-902ddb8a562b" />
+
+
+ **Result of Hough Transform:** The final image with the detected
     straight lines drawn in green.
 
-*Note: The output depends on the contents of `my.jpeg`. The input image
-must be available in the notebook's working directory. The line-drawing
-loop uses `line[0]` to unpack the four coordinates returned by OpenCV's
-`HoughLinesP()`.*
+<img width="296" height="410" alt="download" src="https://github.com/user-attachments/assets/c89fdcb4-ecf0-4740-8097-dd2060a9c094" />
+
 
 ## Result
 
